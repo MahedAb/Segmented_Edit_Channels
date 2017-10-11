@@ -1,2 +1,2 @@
 # Segmented_Edit_Channels
-Matlab codes for simulating the codes proposed in the paper "Coding for Segmented Edit Channels" for the three segmented edit models.
+The scripts Del_main.m, Ins_main.m, InDel_main.m simulated the codes proposed in the paper "Coding for Segmented Edit Channels" for the three segmented edit models. In each case, the channel and code parameters (including the syndromes of the underlying VT codes) can be specified by the user. The function Most_Del_Syn.m, Most_Ins_Syn.m, Most_InDel_Syn.m can be used to find the optimal syndrome values, i.e., those that give the largest codebooks in each case.
